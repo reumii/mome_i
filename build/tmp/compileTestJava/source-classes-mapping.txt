@@ -1,0 +1,2 @@
+com/mome/hauoli/HelloControllerTest.java
+ com.mome.hauoli.HelloControllerTest
