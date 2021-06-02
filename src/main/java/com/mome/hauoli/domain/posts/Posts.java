@@ -1,5 +1,6 @@
 package com.mome.hauoli.domain.posts;
 
+import com.mome.hauoli.domain.BaseTimeEntity;
 import com.sun.javafx.beans.IDProperty;
 import lombok.Builder;
 import lombok.Getter;
@@ -14,7 +15,7 @@ import javax.persistence.Id;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
