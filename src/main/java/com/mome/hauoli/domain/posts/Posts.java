@@ -1,7 +1,6 @@
 package com.mome.hauoli.domain.posts;
 
 import com.mome.hauoli.domain.BaseTimeEntity;
-import com.sun.javafx.beans.IDProperty;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
